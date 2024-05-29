@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afrique Shop Comores</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .about, .products, .contact {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 0.5rem;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            width: calc(33.333% - 2rem);
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Afrique Shop Comores</h1>
+</header>
+
+<nav>
+    <a href="#about">À propos</a>
+    <a href="#products">Produits</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="about" class="about">
+        <h2>À propos de nous</h2>
+        <p>Bienvenue sur Afrique Shop Comores, votre destination en ligne pour les meilleurs produits aux Comores. Nous nous engageons à fournir des produits de qualité à des prix compétitifs. Notre mission est de rendre le shopping en ligne facile et accessible à tous.</p>
+    </section>
+
+    <section id="products" class="products">
+        <h2>Nos Produits</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="image1.jpg" alt="Produit 1">
+                <h3>Produit 1</h3>
+                <p>Description du produit 1.</p>
+                <p>Prix : 10€</p>
+            </div>
+            <div class="product">
+                <img src="image2.jpg" alt="Produit 2">
+                <h3>Produit 2</h3>
+                <p>Description du produit 2.</p>
+                <p>Prix : 20€</p>
+            </div>
+            <div class="product">
+                <img src="image3.jpg" alt="Produit 3">
+                <h3>Produit 3</h3>
+                <p>Description du produit 3.</p>
+                <p>Prix : 30€</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>Pour toute question, n'hésitez pas à nous contacter :</p>
+        <p>Email : contact@afriqueshopcomores.com</p>
+        <p>Téléphone : +269 123 4567</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 Afrique Shop Comores. Tous droits réservés.</p>
+</footer>
+
+</body>
+</html>
